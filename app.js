@@ -31,7 +31,7 @@ function addMessage(text, sender) {
 
 async function getResponseFromAPI(input) {
     const endpoint = 'https://api.openai.com/v1/completions';
-    const apiKey = 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; //换成自己的API Key
+    const apiKey = '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'; //换成自己的API Key
     const prompt = input;
 
     const response = await fetch(endpoint, {
